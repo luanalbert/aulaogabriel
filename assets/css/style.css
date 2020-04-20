@@ -11,6 +11,7 @@ body {
 .container {
     width: 100%;
     max-width: 1080px;
+    min-width: 1040px;
     margin: auto;
     display: flex;
     
@@ -151,7 +152,7 @@ RODAPÉ
 }
 footer {
     margin: auto;
-    display: flex;                                                                          ;
+    display: flex;                                                                          
     width: 100%;
     max-width: 1080px;
     height: 100px;
@@ -172,3 +173,36 @@ footer img:hover {
 }
 /*font-family: 'Waiting for the Sunrise', cursive;
 font-family: 'ABeeZee', sans-serif;*/
+
+/*......................................................
+RESPONSIVIDADE MOBILE
+........................................................*/
+@media screen and (max-width: 719px) and (min-width:320px){
+    .container {
+        width: 100%;
+        max-width: 719px;
+        min-width: 360px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+               
+    }
+    #menu {
+        display: none;
+    }
+    #container_left {
+        width: 100%;
+    }
+    #container_left p {
+        font-size: 15px;
+    }
+    #container_right {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
