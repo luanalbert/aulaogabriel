@@ -206,6 +206,15 @@ footer img:hover {
 	-webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+#horafooter{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+#horafooter {
+    color: white;
+    text-shadow: 0px 1px 3px rgba(7,3,2,0.38);
+}
 /*font-family: 'Waiting for the Sunrise', cursive;
 font-family: 'ABeeZee', sans-serif;*/
 
