@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------------------
+TAGS GERAIS 
+-----------------------------------------------*/
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #faebd7;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+    #container {
+    min-width: 100%;
+    min-width: 100%;
+}
+/*---------------------------------------------
+HEADER 
+-----------------------------------------------*/
+#header {
+    min-width: 100%;
+    min-height: 80px;
+    background-color: #ffffff;
+}
+#header-left {
+    float: left;
+    padding: 10px;
+    margin-left: 10%;
+}
+#header-left img {
+    width: 70px;
+    margin-right: 30px;
+}
+#header-right {
+    padding: 10px;
+}
+#header-right ul{
+    padding-top: 20px;
+    float: left;
+}
+#header-right li{
+    margin-left: 20px;
+}
+#header-right a {
+    color: #da7211;
+    padding: 30px;
+    font-weight: bold;
+}
+#header-right a:hover {
+    color: #ffffff;
+    background-color: #da7211;
+    font-weight: bold;
+}
+#presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 620px;
+    background: url(../img/mercado.jpg);
+    background-size: cover;
+}
+#presentation-content {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+/*---------------------------------------------
+Form
+-----------------------------------------------*/
+#container-form {
+    
+    padding: 20px;
+    width: 100%;
+    background-color: #da7211;
+}
+#form-contact {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#form-contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form label{
+    font-size: 1em;
+    color: #da7211;
+}
+form input {
+    padding: 10px;
+    border-radius: 5px;
+}
+form textarea {
+    clear: both;
+    width: 450px;
+    height: 50px;
+}
+#input-space {
+    margin: 10px;
+    width: 225px;
+    height: 50px;
+    padding: 10px;
+}
