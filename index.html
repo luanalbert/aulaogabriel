@@ -12,47 +12,49 @@
     </head>
     <body>
         <header>
-            <!-- Inicio menu lateral-->
-            <input type="checkbox" id="check"> 
-            <label id="icone" for="check"><img src="assets/img/icone.png"></label>
-            <div class="barra">
-                <nav>
-                    <a href="index.html"><div class="link"> Aula 1 </div></a>
-                    <a href="aula2.html"><div class="link"> Aula 2</div></a>
-                    <a href=""><div class="link"> Aula 3</div></a>
-                    <a href=""><div class="link"> Aula 4 </div></a>
-                    <a href=""><div class="link"> Aula 5</div></a>
-                    <a href=""><div class="link"> Aula 6 </div></a>
-                    <a href="joao.html"><div class="link"> João - Aula 1 </div></a>
-                    <a href="parallax.html"><div class="link"> Luan - Parallax </div></a>
-                    <a href="museu.html"><div class="link"> Luan - Museu </div></a>
+            <!-- Logo-->
+            <a class="navbar-brand" id="container-logo" href="#"> 
+                <img  src="./assets/img/logogabriel.png" width="355px" alt="">
+                </a> 
+  
+            <nav class="navbar navbar-expand-lg navbar-light " id="nav-bar">
 
-                </nav>
-            </div><!-- fim menu lateral-->
-        </header>
-        
-        <div id="header">
-            <a href="index.html" title="Ir para a pagina Inicial - Aulão Gabriel">
-                <img src="assets/img/logogabriel.png" alt="Logo Aulão Gabriel">
-            </a>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html"> Aula 1</a></li>
-                <li><a href="aula2.html"> Aula 2</a></li>
-                <li><a href=""> Aula 3</a></li>
-                <li><a href=""> Aula 4</a></li>
-                <li><a href=""> Aula 5</a></li>
-                <li><a href=""> Aula 6</a></li>
-                <li><a href=""> Mais... </a>
-                    <ul>
-                        <li><a href="joao.html"> João - aula 1</a></li>
-                        <li><a href="parallax.html"> Luan - Parallax</a></li>
-                        <li><a href="museu.html"> Luan - Museu</a></li>
+                 <!-- botaõ -->
+                <button class="navbar-toggler" style="margin-top: -280px;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="text-nav" href="index.html">Aula 1<span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="text-nav" href="aula2.html">Aula 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="text-nav"href="#">Aula 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"id="text-nav" href="#">Aula 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="text-nav"href="#">Aula 5</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Mais...</a>
+                            <div class="dropdown-menu flex-colunm" id="dropdown-bg">
+                                <a class="dropdown-item" id="dropdown-text" href="joao.html"> João - aula 1</a>
+                                <a class="dropdown-item" id="dropdown-text" href="parallax.html"> Luan - Parallax</a>
+                                <a class="dropdown-item" id="dropdown-text" href="museu.html"> Luan - Museu</a>
+                            </div>
+                        </li>
+
                     </ul>
-                </li>   
-            </ul>
-        </nav>      
+                </div>
+          </nav> <!-- Fim Barra de navegação-->
+        </header>
         <section>
             <div class="container">
 
