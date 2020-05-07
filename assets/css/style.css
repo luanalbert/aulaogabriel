@@ -182,12 +182,17 @@ RESPONSIVIDADE MOBILE
         align-items: center;
                
     }
-    #header a img {
-        width: 300px;
-        margin: auto;
+    #container-logo img {
+        
+        padding: 20px;
+        display: flex;
         justify-content: center;
-        align-items: center;  
+        background-color: #FFE600;
+        text-align: center;
+        width: 250px;
+        margin: auto;
     }
+   
     #menu {
         display: none;
     }
