@@ -21,25 +21,35 @@ body {
 CABEÇALHO
 ........................................................*/
 #nav-bar{
-    background-color: #FFE600;
+    background: #086ada;
+       
 }
 #container-logo {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: center;
-    background-color: #FFE600;
+    background:rgb(8, 106, 218);
     text-align: center;
 
 }
 #dropdown-bg {
-    background-color: #FFE600;
+    background-color:rgb(8, 106, 218);
     border: none;
     
 }
 #dropdown-text {
-    color: #000;
+    color: #fff;
 }
+#dropdown-text:hover {
+    background-color: rgb(8, 106, 218);
+}
+#text-nav {
+    color: #fff;
+    padding: 15px;
+    
+}
+
 /*......................................................
 CONTEUDO LEFT
 ........................................................*/
@@ -71,7 +81,7 @@ CONTEUDO LEFT
 }
 .conteudo a {
     text-decoration: none;
-    color: #FFE600;
+    color: rgb(8, 106, 218);
     float: right;
 }
 .conteudo p {
@@ -130,7 +140,7 @@ RODAPÉ
 #container_footer {
     width: 100%;
     height: 100px;
-    background-color: #FFE600;
+    background-color:rgb(8, 106, 218);;
 
 }
 footer {
@@ -139,7 +149,7 @@ footer {
     width: 100%;
     max-width: 1080px;
     height: 100px;
-    background-color: #FFE600;
+    background-color: rgb(8, 106, 218);;
     align-items: center;
     justify-content: flex-end;
 }
@@ -182,15 +192,18 @@ RESPONSIVIDADE MOBILE
         align-items: center;
                
     }
+    #container-logo{
+        background: rgb(8, 106, 218) url(../img/left3.png) no-repeat fixed top left;
+    }
     #container-logo img {
         width: 100%;
         padding: 20px;
         display: flex;
         justify-content: center;
-        background-color: #FFE600;
         text-align: center;
         width: 300px;
         margin: auto;
+       
     }
    
     
@@ -204,4 +217,5 @@ RESPONSIVIDADE MOBILE
         width: 85%;
         margin-bottom: 10px;
     }
+    
 }
